@@ -1,0 +1,20 @@
+service: restana-sls
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  profile: aws-personal
+  region: eu-central-1
+  deploymentBucket: 
+    name: serverless-kyberneees
+    maxPreviousDeploymentArtifacts: 1
+  httpApi:
+    cors: true
+
+functions:
+  service:
+    handler: lambda.handler
+    events:
+      - httpApi:
+          method: '*'
+          path: '*'
