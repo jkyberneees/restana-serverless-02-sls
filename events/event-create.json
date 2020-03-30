@@ -1,0 +1,12 @@
+{
+  "body": { "name": "John", "age": 30, "city": "New York" },
+  "path": "/create",
+  "httpMethod": "POST",
+  "isBase64Encoded": false,
+  "queryStringParameters": {
+    "new": true
+  },
+  "headers": {
+    "content-type": "application/json"
+  }
+}

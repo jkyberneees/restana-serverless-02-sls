@@ -1,0 +1,10 @@
+{
+  "body": "",
+  "path": "/hi",
+  "httpMethod": "GET",
+  "isBase64Encoded": false,
+  "queryStringParameters": {
+  },
+  "headers": {
+  }
+}
