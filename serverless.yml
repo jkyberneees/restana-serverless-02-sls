@@ -2,11 +2,11 @@ service: restana-sls
 
 provider:
   name: aws
+  lambdaHashingVersion: 20201221
   runtime: nodejs12.x
-  profile: aws-personal
-  region: eu-central-1
+  region: us-east-1
   deploymentBucket: 
-    name: serverless-kyberneees
+    name: serverless-kyberneees-aws
     maxPreviousDeploymentArtifacts: 1
   httpApi:
     cors: true

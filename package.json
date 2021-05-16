@@ -1,6 +1,6 @@
 {
   "name": "restana-sls",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "handler.js",
   "scripts": {
@@ -10,11 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "connect-query": "^1.0.0",
     "restana": "^4.2.0",
     "serverless-http": "^2.3.2",
-    "serverless-json-parser": "^1.0.1",
-    "standard": "^14.3.3"
+    "serverless-json-parser": "^1.0.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "standard": "^16.0.3"
+  }
 }
