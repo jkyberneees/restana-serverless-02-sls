@@ -12,9 +12,7 @@ service.get('/hi', (req, res) => {
 })
 
 service.post('/create', (req, res) => {
-  res.send({
-    status: 'created'
-  }, 204)
+  res.send(req.body, 201)
 })
 
 module.exports = service
