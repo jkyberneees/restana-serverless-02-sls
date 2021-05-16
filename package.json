@@ -10,8 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "restana": "^4.2.0",
-    "serverless-http": "^2.3.2",
+    "restana": "^4.9.1",
+    "serverless-http": "^2.7.0",
     "serverless-json-parser": "^1.0.1"
   },
   "devDependencies": {
